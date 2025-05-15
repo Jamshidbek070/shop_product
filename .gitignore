@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.pyo
+*.pyd
+*.pyc
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+instance/
+.env
+.env.*
+.vscode/
+*.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# VS Code / IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# Migrations (you can include them if needed)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+# Uncomment the line below if you do not want to track migrations at all
+# **/migrations/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+coverage.xml
+*.cover
+
+# Pytest
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Swagger / API docs (optional)
+*.swagger.json
+*.swagger.yaml
